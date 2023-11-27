@@ -1,0 +1,12 @@
+{% extends "template.html" %}
+{% block conteudo %}
+
+<div class="entrada">
+    <form action="/iniciar" method="post">
+        <input class="entrada-url" type="text" placeholder="Digite a url desejada" id="url" name="url">
+        <button class="iniciar" type="submit">iniciar</button>
+    </form>
+</div>
+
+
+{% endblock %}
