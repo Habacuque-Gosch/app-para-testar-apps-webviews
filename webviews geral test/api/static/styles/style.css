@@ -1,0 +1,35 @@
+/* Fonte */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+
+@import url(entrada.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    position: fixed;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--cor-texto2);
+    position: hidden;
+    
+}
+
+@media (max-width: 428px) {
+
+    .webview-frame {
+        width: 60vh;
+        height: 100vh;
+    }
+}
